@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+ 
+    
+}
+#site{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+  
+    
+}
+header{
+    background-color:  #F5F5F5;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+   
+}
+
+header, #filtros{
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+ .filtro{
+   display: flex;
+   padding: 15px 19px 10px 10px;
+   color:  #828282;
+   
+  
+}
+.filtro:hover{
+    font-weight:600;
+    color: #333333;
+    cursor: pointer;
+}
+#todos{
+    font-weight:600;
+    color: #333333;
+    
+}
+
+h1{
+    margin-left: 118px;
+    font-weight: bold
+}
+
+#filtros{
+    margin-right: 200px;
+}
+
+img{
+height: 140px;
+width: 191px;
+left: 54px;
+top: 5px;
+border-radius: 0px;
+
+
+}
+.primeirafileira{
+    display: flex;
+    margin-left: 95px;
+    
+}
+.segundafileira{
+    display: flex;
+    margin-left: 95px;
+}
+
+.produtos{
+    margin-top: 18px;
+    border: 2px solid #F5F5F5;
+    width: 320px;
+    height: 380px;
+    margin: 25px;
+    
+}
+.produtos:hover{
+    border: 2px solid black;
+}
+.produtos2:hover{
+    border: 2px solid black;
+}
+.produtos2{
+    margin-top: 55px;
+    border: 2px solid #F5F5F5;
+    width: 320px;
+    height: 390px;
+    margin: 25px;
+}
+ #compras{
+     margin-top: 20px;
+     margin-left: 15px;
+ }
+ 
+ .tags{
+     color: #FFFFFF;
+     background-color:#2E245E ;
+     Width: 65px;
+     Height: 15px;
+     Padding :8px;
+      font-size: 13px;
+      text-align: center;
+   
+    }
+
+ h3{
+   font-weight: bold;
+ }
+
+ .descrição{
+     color: #828282;
+     font-size: 14px;
+ }
+
+ .preço{
+    color: #2E245E;
+    font-weight: 600;
+ }
+
+ .adicionarcarrinho{
+     color:  #828282;
+     text-decoration: underline;
+ }
+ .adicionarcarrinho:hover{
+     color: #2E245E;
+     cursor: pointer;
+     font-weight: 600;
+ }
+ .informações1{
+     margin-left: 15px;
+ }
+ .informações2{
+    margin-left: 15px;
+}
+
+ .fundoimagem{
+  display: flex ;
+  justify-content: center;
+  height: 150px;
+  
+  background-color: #F5F5F5;
+ }
+ input{
+     color: #828282;
+     padding-left: 15px;
+     width: 270px;
+     height: 50px;
+   background-color: #F5F5F5;
+   border: 1px solid #F5F5F5;
+ }
+ #pesquisar{
+     color: #FFFFFF;
+     background-color:#6B54DE ;
+     width: 105px;
+     height: 53px;
+     font-size: 16px;
+     border: 1px solid #F5F5F5;
+     font-weight: 500;
+     margin-left: 5px;
+     cursor: pointer;
+ }
+ 
+ #carrinhodcompras{
+  background-color: #6B54DE;
+  color: #FFFFFF;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0%;
+
+ }
+ #fundocarrinho{
+  
+     background-color: #F5F5F5;
+     width: 400px;
+     height: 370px;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     justify-content: center;
+ }
+ #carrinhovazio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0%;
+ 
+ }
+ #adicioneitens{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 10px;
+   
+ }
+ #compras{
+     margin-top: 40px;
+ }
+ .adicionarcarrinho{
+     background-color:white;
+     border: none;
+     margin-left: -7px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ 
+ 
